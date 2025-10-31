@@ -1,0 +1,53 @@
+body {
+  background: #111;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+  padding-top: 70px; 
+}
+
+.hero-section {
+  background: linear-gradient(120deg, #ff8c00, #ff4500);
+  padding: 120px 0;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.card {
+  border: none;
+  background-color: #1a1a1a;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #fff;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(255, 255, 255, 0.3);
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.ofertas {
+  background: #222;
+}
+
+.oferta-card {
+  background-color: #1c1c1c;
+  border: 2px solid #ff8c00;
+  transition: 0.3s;
+}
+
+.oferta-card:hover {
+  transform: scale(1.05);
+  background-color: #333;
+}
+
+footer {
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+}
